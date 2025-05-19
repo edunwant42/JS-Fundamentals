@@ -34,19 +34,22 @@ By the end of this project, you should be able to confidently explain and demons
 ## 📁 Repository Structure
 
 Each script corresponds to a specific task with increasing complexity. All scripts are written in JavaScript and use `console.log(...)` for output. **`var` is not used.**
+The scripts are organized as follows:
 
-| File                      | Description                                |
-|--------------------------|--------------------------------------------|
-| `0-javascript_is_amazing.js` | Prints “JavaScript is amazing” using `const`. |
-| `1-multi_languages.js`      | Prints 3 programming languages.           |
-| `2-arguments.js`            | Prints messages based on the number of command-line arguments. |
-| `3-value_argument.js`       | Prints the first argument or “No argument”. |
-| `4-concat.js`               | Prints two arguments in a sentence.       |
-| `5-to_integer.js`           | Converts an argument to an integer or prints an error message. |
-| `6-multi_languages_loop.js` | Uses a loop and array to print 3 messages. |
-| `7-multi_c.js`              | Prints “C is fun” x times based on input. |
-| `8-square.js`               | Prints a square of X characters.          |
-| `9-add.js`                  | Adds two integers using a custom `add` function. |
+| File                      | Description                                         | Type       |
+|---------------------------|-----------------------------------------------------|------------|
+| `0-javascript_is_amazing.js` | Prints “JavaScript is amazing” using `const`.       | Mandatory  |
+| `1-multi_languages.js`      | Prints 3 programming languages.                      | Mandatory  |
+| `2-arguments.js`            | Prints messages based on the number of command-line arguments. | Mandatory  |
+| `3-value_argument.js`       | Prints the first argument or “No argument”.          | Mandatory  |
+| `4-concat.js`               | Prints two arguments in a sentence.                  | Mandatory  |
+| `5-to_integer.js`           | Converts an argument to an integer or prints an error message. | Mandatory  |
+| `6-multi_languages_loop.js` | Uses a loop and array to print 3 messages.           | Mandatory  |
+| `7-multi_c.js`              | Prints “C is fun” x times based on input.            | Mandatory  |
+| `8-square.js`               | Prints a square of X characters.                      | Mandatory  |
+| `9-add.js`                  | Adds two integers using a custom `add` function.     | Mandatory  |
+| `10-factorial.js`           | Computes and prints the factorial of a number recursively. | Advanced   |
+
 
 ---
 
@@ -90,5 +93,6 @@ This project is part of the ALX Software Engineering Program.
 Maintained by Abderrahmane Abdelouafi
 
 ✅ Status
-- Not yet completed.
-- 
+- Tasks 0 to 9 completed (Mandatory).
+- Task 10 completed (Advanced).
+- All tasks are executable and tested.
